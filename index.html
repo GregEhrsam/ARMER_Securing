@@ -1,1 +1,437 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Securing Minnesota's Lifeline: The ARMER Investment Path</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f0f4f8;
+        }
+        .chart-container {
+            position: relative;
+            width: 100%;
+            height: 320px;
+            max-height: 350px;
+        }
+        @media (min-width: 768px) {
+            .chart-container {
+                height: 350px;
+            }
+        }
+        .kpi-card {
+            background-color: #ffffff;
+            border-radius: 0.75rem;
+            padding: 1.5rem;
+            text-align: center;
+            box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+            border-left: 5px solid #ffa600;
+        }
+        .kpi-number {
+            font-size: 3rem;
+            font-weight: 900;
+            line-height: 1.1;
+            color: #003f5c;
+        }
+        .kpi-label {
+            font-size: 1rem;
+            font-weight: 500;
+            color: #2f4b7c;
+            margin-top: 0.5rem;
+        }
+        .card {
+            background-color: white;
+            border-radius: 0.75rem;
+            box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+            overflow: hidden;
+        }
+        .flowchart-step {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 1rem;
+            border: 2px solid #665191;
+            background-color: #f0f2f5;
+            border-radius: 0.5rem;
+            font-weight: 600;
+            color: #2f4b7c;
+            min-height: 80px;
+        }
+        .flowchart-arrow {
+            font-size: 2.5rem;
+            color: #665191;
+            font-weight: 900;
+            text-align: center;
+        }
+        .stakeholder-node {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 0.75rem;
+            border-radius: 9999px;
+            font-weight: 600;
+            color: white;
+            box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+        }
+    </style>
+</head>
+<body class="antialiased">
+
+    <div class="container mx-auto p-4 md:p-8">
+
+        <header class="text-center mb-12">
+            <h1 class="text-4xl md:text-5xl font-extrabold text-[#003f5c] mb-2">Securing Minnesota's Lifeline</h1>
+            <p class="text-lg md:text-xl text-[#2f4b7c] font-medium">A Strategic Imperative for the ARMER System</p>
+        </header>
+
+        <main class="space-y-12">
+
+            <section class="card">
+                <div class="p-6 md:p-8">
+                    <h2 class="text-2xl md:text-3xl font-bold text-[#003f5c] mb-4 text-center">ARMER's Proven Value: A Catastrophe Averted</h2>
+                    <p class="text-center text-lg text-[#2f4b7c] max-w-4xl mx-auto mb-8">
+                        During the I-35W bridge collapse, when commercial networks failed, ARMER provided consistent, life-saving communication. This wasn't an anomaly; it's the system's purpose. It is the essential, interoperable network that protects Minnesotans and our first responders daily.
+                    </p>
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
+                        <div class="kpi-card">
+                            <div class="kpi-number">16,000+</div>
+                            <div class="kpi-label">Radios Active in Peak Hour</div>
+                        </div>
+                        <div class="kpi-card">
+                            <div class="kpi-number">27,000+</div>
+                            <div class="kpi-label">System Accesses in Peak Hour</div>
+                        </div>
+                        <div class="kpi-card">
+                            <div class="kpi-number">96%</div>
+                            <div class="kpi-label">Responders Rated Performance as 'Good'</div>
+                        </div>
+                    </div>
+                     <blockquote class="text-center italic text-xl font-semibold text-[#665191] border-l-4 border-[#ffa600] pl-4 py-2 max-w-2xl mx-auto">
+                        "Without the ARMER this incident would have been a catastrophe."
+                        <cite class="block text-right text-base font-normal text-[#2f4b7c] mt-2">- I-35W Collapse Focus Group Participant</cite>
+                    </blockquote>
+                </div>
+            </section>
+
+            <section class="text-center">
+                 <h2 class="text-2xl md:text-3xl font-bold text-[#003f5c] mb-4">2026: A Critical Crossroads for Public Safety</h2>
+                 <p class="text-center text-lg text-[#2f4b7c] max-w-4xl mx-auto mb-8">
+                    The upcoming 2026 System Upgrade Agreement (SUA) requires a major investment to replace aging hardware and manage rising software costs. The decision we make now will determine the future of public safety communication in Minnesota. We face a clear choice.
+                </p>
+            </section>
+
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-start">
+                <div class="card border-t-8 border-[#d45087]">
+                    <div class="p-6 md:p-8">
+                        <h3 class="text-2xl font-bold text-[#d45087] mb-4 text-center">Path A: The High Cost of Inaction</h3>
+                        <p class="text-center text-gray-700 mb-6">
+                            Deferring investment is not a cost-saving measure. It's an active choice that invites catastrophic risk, including operational failures, immense future financial burdens, and a profound loss of public trust. The consequences are severe and well-documented.
+                        </p>
+                        <div class="chart-container max-w-lg mx-auto">
+                            <canvas id="costOfInactionChart"></canvas>
+                        </div>
+                        <p class="text-sm text-center text-gray-600 mt-2">The chart above illustrates how delaying upgrades leads to exponentially higher costs through emergency repairs, stop-gap solutions, and eventual full system replacement, dwarfing the cost of proactive maintenance.</p>
+                    </div>
+                </div>
+
+                <div class="card border-t-8 border-[#4CAF50]">
+                     <div class="p-6 md:p-8">
+                        <h3 class="text-2xl font-bold text-[#4CAF50] mb-4 text-center">Path B: The Value of Proactive Investment</h3>
+                        <p class="text-center text-gray-700 mb-6">
+                           Investing in a comprehensive service and maintenance package ("SUASUS Plus") ensures ARMER's long-term reliability. This fiscally responsible approach provides predictable costs, minimizes downtime, extends equipment life, and guarantees our responders have the tools they need when seconds count.
+                        </p>
+                         <div class="chart-container max-w-lg mx-auto">
+                            <canvas id="proactiveInvestmentChart"></canvas>
+                        </div>
+                        <p class="text-sm text-center text-gray-600 mt-2">A donut chart showing the core benefits of service agreements: predictable budgets, less downtime, extended equipment lifespan, and priority service, which combine to create a reliable and fiscally stable system.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <section class="card">
+                <div class="p-6 md:p-8">
+                    <h2 class="text-2xl md:text-3xl font-bold text-[#003f5c] mb-4 text-center">The Overwhelming Need: A Statewide Funding Gap</h2>
+                    <p class="text-center text-lg text-[#2f4b7c] max-w-4xl mx-auto mb-6">
+                        While grants are helpful, they are insufficient to meet the statewide need for equipment upgrades. The most recent grant program highlights a significant shortfall, demonstrating that a comprehensive, state-level capital investment is the only viable path forward.
+                    </p>
+                    <div class="chart-container max-w-2xl mx-auto">
+                        <canvas id="fundingGapChart"></canvas>
+                    </div>
+                     <p class="text-sm text-center text-gray-600 mt-4">The bar chart starkly contrasts the $4 million in available grant funds with the over $23 million in requests from 178 entities, visually representing the massive demand for ARMER system support across Minnesota.</p>
+                </div>
+            </section>
+            
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-start">
+                <section class="card h-full">
+                    <div class="p-6 md:p-8 flex flex-col h-full">
+                        <h2 class="text-2xl md:text-3xl font-bold text-[#003f5c] mb-4 text-center">The Path to Approval: Minnesota's Capital Budget Process</h2>
+                        <p class="text-center text-lg text-[#2f4b7c] max-w-4xl mx-auto mb-8 flex-grow">
+                            Securing funding requires navigating the state's biennial capital budget process. The timeline is clear and actionable, with the next critical deadline approaching. Success depends on proactive and coordinated engagement.
+                        </p>
+                        <div class="space-y-4">
+                            <div class="flowchart-step">Agency Preliminary Requests Due<br><span class="font-normal text-sm">(June 2025)</span></div>
+                            <div class="flowchart-arrow">▼</div>
+                            <div class="flowchart-step bg-[#e0dffc] border-[#a05195]">Agency Final Requests Due<br><span class="font-bold text-sm text-[#a05195]">CRITICAL DEADLINE: OCT 17, 2025</span></div>
+                            <div class="flowchart-arrow">▼</div>
+                            <div class="flowchart-step">Governor's Proposed Budget<br><span class="font-normal text-sm">(January 2026)</span></div>
+                            <div class="flowchart-arrow">▼</div>
+                             <div class="flowchart-step">Legislature Passes Capital Budget<br><span class="font-normal text-sm">(2026 Session)</span></div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="card h-full">
+                    <div class="p-6 md:p-8 flex flex-col h-full">
+                        <h2 class="text-2xl md:text-3xl font-bold text-[#003f5c] mb-4 text-center">A Unified Coalition for Safety</h2>
+                        <p class="text-center text-lg text-[#2f4b7c] max-w-4xl mx-auto mb-8 flex-grow">
+                            Support for ARMER is widespread, spanning every level of government and public safety discipline. This is not a niche request but a unified call from a broad coalition dedicated to the safety of all Minnesotans.
+                        </p>
+                        <div class="grid grid-cols-2 sm:grid-cols-3 gap-4 text-center text-sm">
+                            <div class="stakeholder-node" style="background-color: #003f5c;">State Legislature</div>
+                            <div class="stakeholder-node" style="background-color: #2f4b7c;">Governor's Office</div>
+                            <div class="stakeholder-node" style="background-color: #665191;">MnDOT & DPS</div>
+                            <div class="stakeholder-node" style="background-color: #a05195;">County & City Gov'ts</div>
+                            <div class="stakeholder-node" style="background-color: #d45087;">MN Sheriffs' Assoc.</div>
+                            <div class="stakeholder-node" style="background-color: #f95d6a;">MN Fire Chiefs Assoc.</div>
+                            <div class="stakeholder-node" style="background-color: #ff7c43;">MN Ambulance Assoc.</div>
+                            <div class="stakeholder-node" style="background-color: #ffa600;">Regional Boards</div>
+                            <div class="stakeholder-node col-span-2 sm:col-span-1" style="background-color: #003f5c;">Emergency Responders</div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+
+            <section class="bg-[#003f5c] text-white rounded-lg p-8 text-center shadow-2xl">
+                <h2 class="text-3xl font-extrabold mb-4 text-[#ffa600]">Protect Our Future. Fund Our Lifeline.</h2>
+                <p class="text-xl max-w-3xl mx-auto mb-6">
+                    The choice is clear. Proactive investment in the ARMER system is a direct investment in the safety and security of every Minnesotan. Let's make the fiscally responsible decision that saves lives.
+                </p>
+                <p class="text-2xl font-bold">Act now to secure ARMER's funding in the 2026 Capital Budget.</p>
+            </section>
+
+        </main>
+    </div>
+
+    <script>
+        const brilliantBlues = {
+            darkBlue: '#003f5c',
+            medBlue: '#2f4b7c',
+            darkPurple: '#665191',
+            purple: '#a05195',
+            magenta: '#d45087',
+            red: '#f95d6a',
+            orange: '#ff7c43',
+            yellow: '#ffa600',
+            green: '#4CAF50'
+        };
+
+        function wrapLabel(str, maxLen) {
+            if (str.length <= maxLen) {
+                return str;
+            }
+            const words = str.split(' ');
+            const lines = [];
+            let currentLine = '';
+            for (const word of words) {
+                if ((currentLine + word).length > maxLen) {
+                    lines.push(currentLine.trim());
+                    currentLine = '';
+                }
+                currentLine += word + ' ';
+            }
+            lines.push(currentLine.trim());
+            return lines;
+        }
+
+        const tooltipTitleCallback = (tooltipItems) => {
+            const item = tooltipItems[0];
+            let label = item.chart.data.labels[item.dataIndex];
+            if (Array.isArray(label)) {
+                return label.join(' ');
+            } else {
+                return label;
+            }
+        };
+        
+        const defaultChartOptions = {
+            responsive: true,
+            maintainAspectRatio: false,
+            plugins: {
+                legend: {
+                    position: 'top',
+                     labels: {
+                        color: brilliantBlues.darkBlue,
+                        font: {
+                            size: 14,
+                            weight: '500'
+                        }
+                    }
+                },
+                tooltip: {
+                    callbacks: {
+                        title: tooltipTitleCallback
+                    },
+                    backgroundColor: 'rgba(0, 63, 92, 0.9)',
+                    titleFont: { size: 16, weight: 'bold' },
+                    bodyFont: { size: 14 },
+                    padding: 12,
+                    cornerRadius: 6
+                }
+            },
+            scales: {
+                y: {
+                    beginAtZero: true,
+                    ticks: { 
+                        color: brilliantBlues.medBlue,
+                        font: { size: 12 }
+                    },
+                    grid: { color: '#e0e6eb' }
+                },
+                x: {
+                   ticks: { 
+                        color: brilliantBlues.medBlue,
+                        font: { size: 12 },
+                        maxRotation: 0,
+                        minRotation: 0
+                    },
+                   grid: { display: false }
+                }
+            }
+        };
+
+        function createCostOfInactionChart() {
+            const ctx = document.getElementById('costOfInactionChart').getContext('2d');
+            const labels = ['Proactive Upgrade (2026 SUA)', 'Stop-Gap Fixes (2028)', 'Emergency Replacement (2030+)'];
+            new Chart(ctx, {
+                type: 'bar',
+                data: {
+                    labels: labels.map(l => wrapLabel(l, 18)),
+                    datasets: [{
+                        label: 'Estimated Cost (Illustrative)',
+                        data: [15, 75, 250],
+                        backgroundColor: [brilliantBlues.purple, brilliantBlues.magenta, brilliantBlues.red],
+                        borderColor: [brilliantBlues.purple, brilliantBlues.magenta, brilliantBlues.red],
+                        borderWidth: 1
+                    }]
+                },
+                options: {
+                    ...defaultChartOptions,
+                    scales: {
+                        y: {
+                            ...defaultChartOptions.scales.y,
+                            title: {
+                                display: true,
+                                text: 'Relative Cost Index',
+                                color: brilliantBlues.darkBlue,
+                                font: { size: 14, weight: '600'}
+                            }
+                        }
+                    }
+                }
+            });
+        }
+
+        function createProactiveInvestmentChart() {
+            const ctx = document.getElementById('proactiveInvestmentChart').getContext('2d');
+            new Chart(ctx, {
+                type: 'doughnut',
+                data: {
+                    labels: ['Predictable Budget', 'Less Downtime', 'Extended Equipment Life', 'Priority Service'],
+                    datasets: [{
+                        label: 'Benefits of Service Agreements',
+                        data: [25, 25, 25, 25],
+                        backgroundColor: [
+                            brilliantBlues.green,
+                            brilliantBlues.yellow,
+                            brilliantBlues.orange,
+                            brilliantBlues.medBlue
+                        ],
+                        hoverOffset: 4
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                     plugins: {
+                        legend: {
+                            position: 'bottom',
+                             labels: {
+                                color: brilliantBlues.darkBlue,
+                                font: {
+                                    size: 12,
+                                    weight: '500'
+                                },
+                                padding: 15
+                            }
+                        },
+                        tooltip: {
+                            callbacks: {
+                                title: tooltipTitleCallback
+                            },
+                             backgroundColor: 'rgba(0, 63, 92, 0.9)',
+                            titleFont: { size: 16, weight: 'bold' },
+                            bodyFont: { size: 14 },
+                            padding: 12,
+                            cornerRadius: 6
+                        }
+                    },
+                }
+            });
+        }
+
+        function createFundingGapChart() {
+            const ctx = document.getElementById('fundingGapChart').getContext('2d');
+            const labels = ['2024-26 ARMER Grant Program'];
+            new Chart(ctx, {
+                type: 'bar',
+                data: {
+                    labels: labels,
+                    datasets: [
+                        {
+                            label: 'Funds Available',
+                            data: [4],
+                            backgroundColor: brilliantBlues.medBlue,
+                        },
+                        {
+                            label: 'Funds Requested by 178 Entities',
+                            data: [23],
+                            backgroundColor: brilliantBlues.red,
+                        }
+                    ]
+                },
+                 options: {
+                    ...defaultChartOptions,
+                    scales: {
+                        y: {
+                            ...defaultChartOptions.scales.y,
+                            title: {
+                                display: true,
+                                text: 'Amount in Millions ($)',
+                                color: brilliantBlues.darkBlue,
+                                font: { size: 14, weight: '600'}
+                            }
+                        },
+                         x: { ...defaultChartOptions.scales.x, ticks: { display: false } }
+                    },
+                    indexAxis: 'y',
+                }
+            });
+        }
+        
+        window.onload = function() {
+            createCostOfInactionChart();
+            createProactiveInvestmentChart();
+            createFundingGapChart();
+        };
+    </script>
+</body>
+</html>
